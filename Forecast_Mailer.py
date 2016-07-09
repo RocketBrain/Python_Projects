@@ -60,11 +60,11 @@ def send_emails(emails, schedule, forecast):
 
     # Login
     password = raw_input("What is your password?")
-    from_email = "edward7j@gmail.com"
-    to_email = "josh@halfnibble.com"
+    from_email = "my_email@gmail.com"
+    to_email = "your_email.com"
     server.login(from_email, password)
     
-    #Send to entire email list
+    #Send email
     message = "Subject: Seattle forecast using Python\n"
     message += "What's up Josh. I am testing a forecast mailer using Python,\n"
     message += "which retrieves a weather API and sends an e-mail to people on my list.\n\n "
