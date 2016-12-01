@@ -22,7 +22,7 @@ def binary_sort(sortedlist,n,x):
 n = input("Enter the size of the list: ") #determine length of list
 
 sortedlist = [] #before appending to array, we initialize it
-2
+
 for i in range(n):
  sortedlist.append(input("Enter %dth element: "%i)) #Each interated number is appended into sortedlist array
 
